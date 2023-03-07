@@ -1,0 +1,205 @@
+body{
+    font-family: Mulish;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    background-color: #f8f8f8;
+    color: #767676;
+    box-sizing: border-box;
+}
+.contactContainer2{
+   background-color: #f8f8f8;
+    height: 90vh;
+    display: block;
+   
+}
+.contactContainer2 img{
+    background-size: cover;
+    height: 90vh;
+    width:100%;
+
+    margin-top: 0%;
+    display: flex;
+    position:absolute;
+    border-radius: 10px;
+
+
+
+    
+}
+.container2Text{
+    /* background-color: rgb(236, 165, 11); */
+    height: 7%;
+    width:25%;
+margin-left: 20%;
+display: flex;
+align-items:baseline;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+font-size: 35px;
+position: relative;
+
+/* 
+margin-top: 10%; */
+/* position:a; */
+/* margin-top: 20%; */
+}
+.contactMapInfo{
+    /* background-color: rgb(8, 67, 145); */
+    height:90vh;
+    width:80%;
+    margin-left: 20%;
+    margin-top: 3%;
+    display: flex;
+    position:relative;
+}
+.contactInfoContainer{
+    background-color:transparent;
+    height:75vh;
+    width: 700px;
+    margin-left: 20%;
+    margin-bottom: 80%;
+    margin-top: 5%;
+    border-radius: 20px;
+    padding-left: 12px;
+    /* position: relative; */
+    margin-right: 10%;
+    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    /* margin-top: 10%; */
+    animation: fade-in-out 6s ease-in-out infinite;
+}
+
+@keyframes fade-in-out {
+  0%, 100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+}
+.contactMapContainer{
+    background-color: rgb(244, 246, 248);
+    height:80vh;
+    width:70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    position: relative;
+    border-radius: 20px;
+}
+.mapContainerText {
+    /* background-color: rgb(12, 36, 36); */
+    height:60vh;
+    width:70%;
+    margin-left: 10%;
+    margin-top: 10%;
+    position: relative;
+    display: block;
+    /* align-items: center; */
+    font-weight: bold;
+    font-size: 13px;
+    align-self: last baseline;
+}
+.mapContainerText h3{
+    font-size:20px;
+    font-weight:bold;
+}
+.mapContainerText p{
+    /* color: rgb(36, 35, 35); */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.buttonSubmit{
+    background-color: #ffffff;
+    position: relative;
+    height: 6vh;
+    width: 25%;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    color: transparent;
+    margin-left: 37%;
+    border-radius: 10px;
+    /* margin-left: 10%; */
+    transition: transform 0.5s ease;
+}
+/* .mapContainerText p{
+color:#ffffff;
+} */
+
+.buttonSubmit:hover {
+  transform: scale(1.1);
+}
+
+.callUs{
+    position: relative;
+    height:5vh;
+    width:50%;
+    margin-top: 10%;
+    /* background-color: rgb(158, 15, 94); */
+    display: flex;
+    align-items: center;
+    /* font-size: 2px; */
+    /* font-size: large; */
+    
+}
+.callIconText{
+    /* position: relative; */
+    height:9vh;
+    width:200%;
+    margin-top: 70%;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(13, 247, 110); */
+    /* margin-left: 10%; */
+    position: absolute;
+    font-size: 14px;
+}
+.location{
+    position: relative;
+    height:5vh;
+    width:100%;
+    margin-top: 40%;
+    /* background-color: rgb(158, 15, 94); */
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.locationText{
+    height:9vh;
+    width:100%;
+    margin-top: 40%;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(13, 247, 110); */
+    /* margin-left: 10%; */
+    position: absolute;
+    font-size: 13px; 
+}
+.businessHours{
+    position: relative;
+    height:5vh;
+    width:100%;
+    margin-top: 40%;
+    /* background-color: rgb(158, 15, 94); */
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+}
+.BusinessHoursText{
+    height:9vh;
+    width:100%;
+    margin-top: 40%;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(13, 247, 110); */
+    /* margin-left: 10%; */
+    position: absolute;
+    font-size: 14px; 
+}

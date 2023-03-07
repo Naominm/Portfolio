@@ -1,0 +1,204 @@
+body{
+    font-family: Mulish;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    background-color: #f8f8f8;
+    /* color: #080202; */
+    color: #767676;
+    box-sizing: border-box;
+}
+.aboutContainer2{
+   
+    height: 280vh;
+    display: block;
+    justify-content: space-between;
+}
+.aboutContainerText{
+    height: 5%;
+    width: 40%;
+    /* background-color: rgb(7, 66, 117); */
+    display: flex;
+    
+    position: relative;
+  margin-left: 20%;
+  /* margin-top: 20%; */
+    
+}
+.aboutTextBtn{
+    position: relative;
+    width: 60%;
+    height: 20%;
+    background-color: aqua;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #000000;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight: bold;
+    font-family: Mulish-Black;
+    align-items: baseline;
+    font-size: 20px;
+}
+.aboutTextHeading{
+    position: absolute;
+    width: 60%;
+    height: 40%;
+    /* background-color: #8f8888; */
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #000000;
+    display: flex;
+     align-items: center;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 40px;
+     font-weight:bolder;
+}
+.aboutMyTextSubHeading{
+    position: relative;
+    width: 60%;
+    height: 20%;
+    /* background-color: #8f8888; */
+    margin-top: 1%;
+    margin-left: 1%;
+    color: #000000;
+    display: flex;
+     align-items: center;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 40px;
+     font-weight:bolder;
+}
+.aboutContainerImage{
+    position: absolute;
+    margin-top: 5%;
+    height: 100vh;
+    width: 60%;
+    background-color: transparent;
+    margin-left: 25%;
+    margin-right: 10%;
+   
+    /* justify-content: space-around; */
+}
+.aboutContainerImage img{
+    position: relative;
+    height: 100vh;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+
+}
+
+.aboutMyTextContainer{
+    position: relative;
+    width: 75%;
+    height: 105vh;
+    /* background-color: rgb(228, 108, 11); */
+    margin-top: 55%;
+    margin-left: 22%;
+    margin-right: 10%;
+}
+.aboutMyTextHeading{
+    /* background-color: #ffffff; */
+    position: relative;
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-size: 40px;
+    font-weight:bolder; */
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000000;
+    /* margin-bottom: 15px; */
+    /* justify-content: space-around; */
+    /* margin-left: 22%;
+    margin-right: 10%; */
+
+}
+.typer{
+    position: relative;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 8vh;
+    font-size: 30px;
+    font-weight:bolder;
+    font-family: Mulish;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-size: 20px; */
+}
+.aboutMyBio{
+/* background-color: #e92323; */
+height: 22vh;
+width: 100%;
+margin-top: 2%;
+}
+.aboutMyBio p{
+    color: #767676;
+}
+.aboutMyOtherDetails{
+    display: flex; 
+    height: 36vh;
+width: 100%;
+/* background-color: #637c1d;  */
+margin-top: 1%;
+}
+.aboutBackground{
+color: #000000;
+/* background-color: beige; */
+width: 12.5%;
+height: 100%;
+font-weight: bold;
+display: block;
+justify-content: space-between;
+}
+.aboutFrontground{
+    width: 25%;
+    height: 120%;
+    color: #000000;
+/* background-color: beige; */
+display: inline-block;
+
+}
+.aboutBackground2{
+    /* background-color: chartreuse; */
+    width: 25%;
+    height: 100%;
+    font-weight: bold;
+    color: #000000;
+}
+.aboutBackground3{
+    /* background-color: chartreuse; */
+    width: 25%;
+    height: 100%;
+   
+}
+.aboutButtonDownloadResume{
+    background-color: #043028;
+    width: 15%;
+    height: 10%;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    /* margin-top: 2%; */
+    padding-left: 3%;
+    position: relative;
+    margin-bottom: 5%;
+    border-color:green;
+    border-radius: 10px;
+    margin-left: 30%;
+
+}
+  .aboutButtonDownloadResume a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+

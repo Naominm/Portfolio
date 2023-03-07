@@ -1,0 +1,108 @@
+
+.sidebarContainer{
+    width: 19%;
+    height: 100vh;
+    background-color:#ffffff;
+    margin-top: 0;
+    position: absolute;
+    position: fixed;
+}
+
+.logoContainer{
+    margin-left: 30px;
+    width: 70%;
+    height: 50px;
+    /* background-color: #a51010; */
+    margin-top: 20px;
+    position: relative;
+/* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logoContainer p{
+color: #000000;
+font-weight:500px;
+font-size: 40px;
+margin-left: 20px;
+align-items: center;
+}
+/* @media only screen and (max-width: 575px) {
+    .sidebarContainer {
+        position: initial;
+        width: 100%;
+        height: auto;
+        overflow-y: hidden;
+    } */
+.icons{
+    width: 70%;
+    height: 60vh;
+    /* background-color: blue; */
+    margin-left: 50px;
+    margin-top: 50px;
+   color: grey;
+   size: 20px;
+}
+.homeicon{
+margin-top: 20px;
+/* background-color: #a51010; */
+width: fit-content;
+height: fit-content;
+color:grey;
+transition: all 0.3s ease-in-out;
+
+ 
+}
+.homeicon:hover {
+    transform: scale(1.4);
+  }
+.link {
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.9s ease;
+  
+}
+.Hometext:hover{
+    /* color: blue; */
+    color: #000000;
+    transform: translateX(5px);
+    transition: transform 0.5s ease-out;
+}
+/* .link.active {
+  color: black;
+  transform: none;
+} */
+.Hometext{
+  
+    
+    margin-left: 25px;
+    width: fit-content;
+    height: fit-content;
+    /* background-color: tomato; */
+    font-family: Mulish-Black;
+    color:grey;
+    margin-top: 10%;
+    font-size: 18px;
+    
+}
+
+.homeContainer{
+    display: flex;
+    
+   
+    
+}
+.AboutContainer,.contactContainer{
+    /* background-color: #fff; */
+    display: flex;
+}
+
+ /* @media only screen and (max-width: 767px) {
+    .sidebarContainer {
+        max-width: 767px;
+    } */
+.copyrightContainer{
+    margin-top: 90%;
+    display: flex;
+    font-size: 15px;
+    /* justify-confotent: space-evenly; */
+}
+

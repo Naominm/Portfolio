@@ -1,0 +1,125 @@
+body {
+    font-family: Mulish;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    background-color: #f8f8f8;
+    color: #767676;
+    /* background-color: tomato; */
+    box-sizing: border-box;
+  }
+.portfolioContainer2{
+    /* background-color: rgb(166, 114, 196); */
+    height: 100vh;
+    width: 80%;
+    position: relative;
+    margin-left: 19.0%;
+    display: flex;
+}
+.showcase2{
+  background-color: transparent;
+  position: relative;
+  margin-top:17% ;
+  /* background-color: blue; */
+  height: 50vh;
+  width: 40%;
+  margin-left: 50%;
+}
+.showcase2 img{
+  position: relative;
+  height: 90%;
+  width: 100%;
+  border-radius: 10%;
+  transition: transform 0.5s ease;
+}
+
+.showcase2 img:hover {
+  transform: scale(1.1);
+}
+.containerText{
+  position: absolute;
+  /* color:#0f0f0f; */
+  display: flex;
+  font-size: 60px;
+  font-weight: bold;
+  /* background-color: blue; */
+  width:40%;
+  padding-left: 10%;
+  margin-top: 5%;
+  height: 10vh;
+align-items: center;
+}
+.testSubtitle{
+  position: absolute;
+  /* background-color: black; */
+  width: 90%;
+  /* color: #000000; */
+  margin-top: 10%;
+  color: #767676;
+  display: flex;
+  font-size: 25px;
+  height: 10vh;
+  padding-left: 20px;
+ 
+}
+.showCase{
+  position: absolute;
+  margin-top:17% ;
+  /* background-color: blue; */
+  height: 55vh;
+  width: 30%;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+.showCase img{
+  position: relative;
+  height: 80%;
+  width: 100%;
+  border-radius: 10%;
+  transition: transform 0.5s ease;
+}
+
+.showCase img:hover {
+  transform: scale(1.1);
+}
+.ProjectDetails{
+  position: relative;
+  background-color: #ffffff;
+  height: 20%;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  border-radius: 30px;
+  transition: transform 0.5s ease;
+  box-shadow: 0 0 90px rgba(0, 0, 0, 0.2);
+  
+}
+.ProjectDetails:hover{
+  transform: scale(1.1);
+}
+
+.ProjectDetails h1{
+font-size: 30px;
+font-weight: bold;
+/* color: #000000; */
+text-align: center;
+color: #767676;
+padding-left: 50px;
+}
+.projectDescription{
+  position: absolute;
+  /* background-color: rgb(85, 187, 235); */
+  height: 10%;
+  width: 20%;
+  margin-left:80%;
+}
+.icon{
+  color: #0f0f0f;
+  margin-left:50%;
+
+
+
+}
+

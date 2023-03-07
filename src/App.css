@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+html.light {
+  background-color: #fff;
+  color: #000;
+}
+
+
+html.dark {
+  background-color: #000;
+  color: #fff;
+}
+.button{
+  margin-top: 40px;
+  display: flex;
+  position: absolute;
+}
+@font-face{
+font-family: "Mulish-Black";
+src: local ("Mulish-Black"), url('./fonts/Mulish/static/Mulish-Black.ttf');
+}
+ 
