@@ -34,6 +34,7 @@
   color: #ffffff;
   font-weight:500px;
   align-items: center;
+  font-size: 40px;
   }
  
   .icons{
@@ -152,6 +153,12 @@
     position: absolute;
     display: block;
     
+  }
+  @media (min-width: 768px) {
+    .hambergerMenu {
+      margin-top: 2%;
+      margin-left: 2%;
+    }
   }
   @media (min-width: 768px) {
     .closeButton {

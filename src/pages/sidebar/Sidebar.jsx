@@ -120,8 +120,8 @@ export default function Sidebar() {
         <div className="hambergerMenu" onClick={toggleSidebar}>
           <Icon
             icon="radix-icons:hamburger-menu"
-            width="30"
-            height="30"
+            width="40"
+            height="40"
             color="white"
           />
         </div>

@@ -194,7 +194,7 @@ align-items: center;
 @media (max-width: 768px) {
   .containerText {
   
-   margin-top:2%;
+   margin-top:5%;
    width: 50%;
    height: 20%;
    margin-left: 10%;
@@ -226,7 +226,7 @@ align-items: center;
    width: 80%;
    height: 15%;
    padding-left:10px ;
-   margin-left: 10%;
+   margin-left: 14%;
    font-size: 20px;
   }
 }
