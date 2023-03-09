@@ -7,19 +7,7 @@ const Portfolio = () => {
   return (
     <div>
    <div className="portfolioContainer2">
-   <div className="showcase2">
-   <img src={process.env.PUBLIC_URL + 'image/BudgetAllocation.png'} alt="prey in orange and eater in blue" />
-   <div className="ProjectDetails">
-  <h1>BudgetApp</h1>
- 
-<div className="projectDescription">
-< a href ="https://github.com/Naominm/ejtos-react_budget_app.git" target="_blank" rel="noreferrer" >
-<Icon icon="iconoir:repository" color="black" width="24" height="24" />
-</a>
-</div>
-
-</div>
-    </div>     
+     
 <div className="containerText">
   <p>Portfolio</p> <br /> 
 </div>
@@ -40,7 +28,19 @@ const Portfolio = () => {
 
 </div>
 </div>
+<div className="showcase2">
+   <img src={process.env.PUBLIC_URL + 'image/BudgetAllocation.png'} alt="prey in orange and eater in blue" />
+   <div className="ProjectDetails">
+  <h1>BudgetApp</h1>
+ 
+<div className="projectDescription">
+< a href ="https://github.com/Naominm/ejtos-react_budget_app.git" target="_blank" rel="noreferrer" >
+<Icon icon="iconoir:repository" color="black" width="24" height="24" />
+</a>
+</div>
 
+</div>
+    </div> 
         </div>
     </div>
   )

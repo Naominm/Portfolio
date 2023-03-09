@@ -1,88 +1,103 @@
-
-.sidebarContainer{
-    width: 19%;
-    height: 100vh;
-    background-color:#ffffff;
+.sidebarContainer {
+    width: 59%;
+    height: 90vh;
+    background-color: transparent;
     margin-top: 0;
     position: absolute;
-    position: fixed;
-}
-
-.logoContainer{
-    margin-left: 30px;
-    width: 70%;
-    height: 50px;
-    /* background-color: #a51010; */
-    margin-top: 20px;
-    position: relative;
-/* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.logoContainer p{
-color: #000000;
-font-weight:500px;
-font-size: 40px;
-margin-left: 20px;
-align-items: center;
-}
-/* @media only screen and (max-width: 575px) {
-    .sidebarContainer {
-        position: initial;
-        width: 100%;
-        height: auto;
-        overflow-y: hidden;
-    } */
-.icons{
-    width: 70%;
-    height: 60vh;
-    /* background-color: blue; */
-    margin-left: 50px;
-    margin-top: 50px;
-   color: grey;
-   size: 20px;
-}
-.homeicon{
-margin-top: 20px;
-/* background-color: #a51010; */
-width: fit-content;
-height: fit-content;
-color:grey;
-transition: all 0.3s ease-in-out;
-
- 
-}
-.homeicon:hover {
-    transform: scale(1.4);
+    border: 2px solid rgb(1, 34, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(50px);
   }
-.link {
-  color: inherit;
-  text-decoration: none;
-  transition: transform 0.9s ease;
+  .sidebarContainer{
+   width: 250px;
+  }
+  @media (max-width: 768px) {
+    .sidebarContainer {
+   display: block;
+   width: 90px;
+   height: 400px;
+   
+    }
+  }
   
-}
-.Hometext:hover{
-    /* color: blue; */
-    color: #000000;
-    transform: translateX(5px);
-    transition: transform 0.5s ease-out;
-}
-/* .link.active {
-  color: black;
-  transform: none;
-} */
-.Hometext{
+  .logoContainer{
+      margin-left: 30px;
+      width: 70%;
+      height: 50px;
+      /* background-color: #a51010; */
+      margin-top: 20px;
+      position: relative;
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .logoContainer p{
+  color: #ffffff;
+  font-weight:500px;
+  align-items: center;
+  }
+ 
+  .icons{
+      width: 70%;
+      height: 60vh;
+      /* background-color: blue; */
+      margin-left: 50px;
+      margin-top: 50px;
+     color: #ffffff;
+     size: 20px;
+  }
+  .homeicon{
+  margin-top: 20px;
+  /* background-color: #a51010; */
+  width: fit-content;
+  height: fit-content;
+  color:#ffffff;
+  transition: all 0.3s ease-in-out;
+  
+   
+  }
+  .homeicon:hover {
+      transform: scale(1.4);
+    }
+  .link {
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.9s ease;
+    
+  }
+  @media (max-width: 415px) {
+    .logoContainer {
+     font-size: 4px;
+    }
+  }
+  .Hometext:hover{
+      /* color: blue; */
+      color: #05580a;
+      transform: translateX(5px);
+      transition: transform 0.5s ease-out;
+  }
+  /* .link.active {
+    color: black;
+    transform: none;
+  } */
+  .Hometext{
   
     
-    margin-left: 25px;
+    margin-left: 20px;
     width: fit-content;
     height: fit-content;
     /* background-color: tomato; */
     font-family: Mulish-Black;
-    color:grey;
+    /* color:#bd1515; */
     margin-top: 10%;
     font-size: 18px;
     
 }
+@media (max-width: 415px) {
+    .Hometext {
+     font-size: 15px;
+     display: none;
+    }
+  }
 
 .homeContainer{
     display: flex;
@@ -106,3 +121,53 @@ transition: all 0.3s ease-in-out;
     /* justify-confotent: space-evenly; */
 }
 
+ @media (max-width: 415px) {
+    .icons {
+      width:0px;
+      height: 0px;
+      margin-left: 0%;
+      font-size: 1px;
+   
+    }
+  }
+  @media (max-width: 768px) {
+    .logoContainer {
+      width: max-content;
+      height: max-content;
+      margin-left: 2%;
+      margin-top: 0%;
+    }
+  }
+  @media (max-width: 768px) {
+    .logoContainer p {
+      width: max-content;
+      height: max-content;
+      font-size: 35px;
+      margin-left: 0;
+      margin-top: 3px;
+    }
+  }
+  .hambergerMenu{
+    margin-left:0%;
+    position: absolute;
+    display: block;
+    
+  }
+  @media (min-width: 768px) {
+    .closeButton {
+      display: none;
+    }
+  
+    .hambergerMenu {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .closeButton {
+      display: block;
+    }
+  
+    .hambergerMenu {
+      display: block;
+    }
+  }

@@ -6,13 +6,13 @@ export default function Contact(){
         <div>
    
 <div className="contactContainer2"> 
-
+{/* <img src={process.env.PUBLIC_URL + 'image/getInTouch.jpg'} alt="macbookLaptop" /> */}
 <div className="container2Text">
     <p>GET IN TOUCH</p>
 </div>
 <div className="contactMapInfo">
     
-<img src={process.env.PUBLIC_URL + 'image/getInTouch.jpg'} alt="macbookLaptop" />
+{/* <img src={process.env.PUBLIC_URL + 'image/getInTouch.jpg'} alt="macbookLaptop" /> */}
 <div className="contactMapContainer">
    <div className="mapContainerText">
     <h3>CONTACT ME</h3> <br />

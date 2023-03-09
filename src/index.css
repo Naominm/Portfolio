@@ -17,10 +17,6 @@ code {
    url('./fonts/Mulish/static/Mulish-Black.ttf') format("truetype");
   font-weight: bold;
   }
-  @media screen and (max-width:1200px){
- body{
-  overflow: visible;
-}
-  }
+
   
   

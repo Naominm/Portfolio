@@ -3,6 +3,7 @@ import "./home.css"
 import { Icon } from '@iconify/react';
 
 
+
 export default function Home() {
   return (
     <div>
@@ -18,8 +19,8 @@ export default function Home() {
       </div>
       </div>
     </div>
-    <div className="homeContainerText">
-      </div> 
+    {/* <div className="homeContainerText">
+      </div>  */}
       <div className="homeText">
   <div className="homeTextMyname">
   <p>NAOMI MBUGUA</p>
@@ -30,7 +31,10 @@ export default function Home() {
   <p>Web Developer</p>
   </div>
   <div className="homeTextmySkilldescription">
-  <p>I am a  Junior front-end web developer in kenya.I develop websites for small businesses.</p>
+  <p>I'm a Junior Front-End Web Developer based in Kenya,
+     with a passion for designing and developing websites that meet the unique needs of
+      small businesses. I specialize in crafting clean, responsive,
+     and user-friendly interfaces using the latest web technologies and best practices.</p>
   </div>
   <div className="homeSocialMediaIcons">
     <div className="homeFacebookIcon">
@@ -38,9 +42,10 @@ export default function Home() {
     <Icon icon="ic:baseline-facebook" color="blue" width="20" height="20" />
     </a>
     </div>
+    
 <div className="homeGithubIcon">
 <a href="https://github.com/Naominm" target="_blank" rel="noreferrer" aria-label='Github' >
-<Icon icon="mdi:github" width="20"  color="#181717" height="20" />
+<Icon icon="mdi:github" width="20"  color="white" height="20" />
 </a>
 </div>
 
@@ -58,7 +63,7 @@ export default function Home() {
 </div>
 <div className="homeInstagramIcon">
 <a href="https://www.instagram.com/nash_mbugua/" target="_blank" rel="noreferrer" aria-label='Instagram' >
-<Icon icon="uil:instagram-alt" width="20" color="maroon" height="20" />
+<Icon icon="uil:instagram-alt" width="20" color="#68221F" height="20" />
 </a>
 </div>
 
