@@ -356,7 +356,7 @@ font-size: 15px;
 }
 @media (max-width: 768px) {
     .aboutButtonDownloadResume {
-margin-top: 20%;
+margin-top: 40%;
 width: 50%;
 align-items: center;
 margin-left: 18%;
