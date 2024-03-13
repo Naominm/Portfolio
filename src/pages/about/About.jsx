@@ -31,9 +31,8 @@ export default function About(){
              
              I have a solid grasp of web scripting languages such as HTML and CSS, 
              and I've taken things to the next level by learning JavaScript, React JS, and GIT. Through these languages, I've been able to develop small yet impressive web projects and
-              I'm eager to continue learning more in front-end development.</p>
-               <p>If you know of any companies offering internships or industrial attachments, please let me know. 
-                I'm eager to take my skills to the next level and make a positive impact in the industry. Thank you!.</p> <br />
+              I'm eager to continue learning more in front-end development.</p> <br />
+               <p> I'm eager to take my skills to the next level and make a positive impact in the industry. Thank you!.</p> <br />
                
                </div>
     

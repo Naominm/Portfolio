@@ -31,9 +31,9 @@ export default function Home() {
   <p>Web Developer</p>
   </div>
   <div className="homeTextmySkilldescription">
-  <p>I'm a Junior Front-End Web Developer based in Kenya,
+  <p>I'm a  Front-End Web Developer based in Kenya,
      with a passion for designing and developing websites that meet the unique needs of
-      small businesses. I specialize in crafting clean, responsive,
+     businesses. I specialize in crafting clean, responsive,
      and user-friendly interfaces using the latest web technologies and best practices.</p>
   </div>
   <div className="homeSocialMediaIcons">
