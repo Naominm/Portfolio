@@ -30,7 +30,7 @@ export default function About(){
              where I devote most of my time to coding. </p>
              
              I have a solid grasp of web scripting languages such as HTML and CSS, 
-             and I've taken things to the next level by learning JavaScript, React JS, and GIT. Through these languages, I've been able to develop small yet impressive web projects and
+             and I've taken things to the next level by learning JavaScript, React JS,Next JS and GIT. Through these languages, I've been able to develop small yet impressive web projects and
               I'm eager to continue learning more in front-end development.</p> <br />
                <p> I'm eager to take my skills to the next level and make a positive impact in the industry. Thank you!.</p> <br />
                
