@@ -25,7 +25,7 @@ export default function About(){
       
         <div className="aboutMyBio">
             <p>
-        <p>Hello! I'm a budding frontend web developer currently studying at Muranga University.
+        <p>Hello! I'm a budding frontend web developer in Kenya.
              My passion for front-end web development shines through in my daily routines, 
              where I devote most of my time to coding. </p>
              
