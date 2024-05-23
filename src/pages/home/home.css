@@ -84,7 +84,7 @@ height: 180vh;
 .homeImageBoarder {
     width: 75%;
     height: 50vh;
-    background-color: hsl(0deg 0% 100% / 30%);
+    background-color: none;
     margin: 40px auto 20px auto;
     display: flex;
     justify-content: center;
@@ -103,7 +103,7 @@ height: 180vh;
     animation-name: morph;
    
 
-    box-shadow: inset 0 0 0 20px hsl(0deg 0% 100% / 30%);
+    box-shadow: inset none;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     border-top-left-radius: 60%;
     border-top-right-radius: 40% 30%;
@@ -177,6 +177,19 @@ height: 180vh;
    
     }
   } */
+  .downloadResumeLink {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0000ff; /* Adjust the color as needed */
+    text-decoration: none;
+  }
+  
+  .downloadResumeLink:hover {
+    text-decoration: underline;
+  }
+  
   
   .homeImage img{
     object-fit: cover;

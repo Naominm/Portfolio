@@ -20,8 +20,7 @@ export default function Contact(){
     <p> I will appreciate any opinion and will try to respond ASAP.</p> 
     <p>Email me  at "naomimbugua536@gmail.com. Through the link below</p> 
     <div className="buttonSubmit">
-    <a href="https://mail.google.com/" target="_blank" rel="noreferrer">
-    
+    <a href="mailto:naomimbugua536@gmail.com?subject=Inquiry&body=Hi Naomi,%0D%0A%0D%0A">
 <Icon icon="logos:google-gmail" width="35" height="35"  />
 </a>
     </div>
@@ -32,9 +31,8 @@ export default function Contact(){
         <Icon icon="material-symbols:call" width="20" height="20" /><br /><br />
         <p>call</p>
             <div className="callIconText">
-                <p>+254-703-937-319,
-                +254-796-920-317</p> 
-                {/* <hr /> */}
+                <p>+254-703-937-319</p> 
+            
             </div>
 
         </div>
@@ -44,7 +42,7 @@ export default function Contact(){
                 </p>
                 {/* <hr /> */}
                 <div className="locationText">
-                    <p>1075,Kiambu Githunguri Road Kenya.</p>
+                    <p>Remote</p>
                 </div>
         </div>
         <div className="businessHours">

@@ -9,6 +9,7 @@ body{
     color: #ffffff;
     box-sizing: border-box;
 }
+
 .contactContainer2{
     background-color: #010222;
     height: 150vh;
@@ -96,7 +97,7 @@ width: 300px;
     /* background-color:transparent; */
     height:85vh;
     width: 500px;
-    background-color: transparent;
+    background-color: #1f1f2b;
     margin-left: 20%;
     margin-bottom: 80%;
     margin-top: 5%;

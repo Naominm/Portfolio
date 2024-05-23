@@ -137,20 +137,23 @@ flex-direction: column;
 .aboutContainerImage{
     position: relative;
     margin-top: 5%;
-    height: 50vh;
-    width: 40%;
+    height: 60vh;
+    width: 30%;
+    border-radius: 20px;
     /* background-color: transparent; */
     margin-left: 2%;
     margin-right: 2%;
-    /* background-color: #043028; */
+    background-color: #d8e6e3;
    
     /* justify-content: space-around; */
 }
 @media (max-width: 768px) {
     .aboutContainerImage {
   margin-top: 4%;
-  height: 200px;
-  margin-left: 0%;
+  height: 250px;
+  margin-left: 2%;
+  background:#C5BBBB;
+  width: 250px;
 
  
   
@@ -160,18 +163,22 @@ flex-direction: column;
 .aboutContainerImage img{
     position: relative;
     height: 60vh;
-    width: 75%;
+    width: 100%;
     border-radius: 20px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
-
+    transition: transform 0.5s ease; /* Add transition for smooth hover effect */
+    transform: rotate(8deg);
+}
+.aboutContainerImage img:hover {
+  transform: rotate(0deg); /* Rotate the image back to 0 degrees on hover */
 }
 
 @media (max-width: 768px) {
     .aboutContainerImage img{
   
-width: 230px;
+width: 250px;
 height: 250px;
-margin-left: 5%;
+margin-left: 2%;
  
   
     }

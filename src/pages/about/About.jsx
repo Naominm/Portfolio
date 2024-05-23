@@ -18,7 +18,7 @@ export default function About(){
     </div>
     <div className="containerHolder">
     <div className="aboutContainerImage">
-     <img src={process.env.PUBLIC_URL + 'image/naomi.jpg'} alt="A black lady standing" />
+     <img src={process.env.PUBLIC_URL + 'image/profile1.jpg'} alt="A black lady standing" />
      </div>
    
     <div className="aboutMyTextContainer">
@@ -43,7 +43,7 @@ export default function About(){
  
 
 <div className="aboutButtonDownloadResume">
-    <a href="https://drive.google.com/file/d/17vQAphKjUlQW6QE_H8hw35m-PlTLVEG5/view?usp=share_link" target="_blank" rel="noreferrer"> 
+    <a href="https://drive.google.com/file/d/1A7hfoSSyM3wCDxECMjbVJmPRwG923Z8K/view?usp=sharing" target="_blank" rel="noreferrer"> 
     <p class="buttonText">Download Resume</p>
        </a>
       
