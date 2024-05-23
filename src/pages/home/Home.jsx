@@ -28,20 +28,13 @@ export default function Home() {
                 and user-friendly interfaces using the latest web technologies and best practices.
               </p>
             </div>
-            <a
-              href="https://drive.google.com/file/d/1A7hfoSSyM3wCDxECMjbVJmPRwG923Z8K/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-              className="downloadResumeLink"
-            >
-              Download Resume
-            </a>
+            
             <div className="homeSocialMediaIcons">
-              <div className="homeFacebookIcon">
+              {/* <div className="homeFacebookIcon">
                 <a href="https://www.facebook.com/naomi.mbugua.3194/" target="_blank" rel="noreferrer" aria-label='Facebook'>
                   <Icon icon="ic:baseline-facebook" color="blue" width="20" height="20" />
                 </a>
-              </div>
+              </div> */}
               <div className="homeGithubIcon">
                 <a href="https://github.com/Naominm" target="_blank" rel="noreferrer" aria-label='Github'>
                   <Icon icon="mdi:github" width="20" color="white" height="20" />
@@ -67,7 +60,16 @@ export default function Home() {
                   <Icon icon="logos:google-gmail" width="20" height="20" />
                 </a>
               </div>
+            
             </div>
+            <a
+              href="https://drive.google.com/file/d/1A7hfoSSyM3wCDxECMjbVJmPRwG923Z8K/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              className="downloadResumeLink"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
       </div>
